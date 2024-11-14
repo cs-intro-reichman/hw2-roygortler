@@ -6,7 +6,7 @@ public class CalcPi {
 		double d=1.0;
 		int number=Integer.parseInt(args[0]);
 		while(c<number){
-			if(c%2==0){
+			if(c%2==1){
 				i=i-(d/(b+2));
 				
 			}else
