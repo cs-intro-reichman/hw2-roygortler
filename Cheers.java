@@ -5,16 +5,18 @@ public class Cheers {
 	    // Replace this comment with your code
             String s=args[0];
             int c=0;
+           s= s.toUpperCase();
             int number=Integer.parseInt(args[1]);
+            System.out.println(s);
             String t="AEFHILMNORSX";
-            s.toUpperCase();
+            
             while(c<s.length()){
                 char a=s.charAt(c);
                 int n=0;
                 boolean r=true;
                 while(n<t.length()){
                         if(a==t.charAt(n))
-                                {System.out.println("give me an"+s.charAt(c));
+                                {System.out.println("give me an "+s.charAt(c));
                                 r=false;
                                 break;}
                         
@@ -22,12 +24,12 @@ public class Cheers {
                 }
                 
                 if(r==true)
-                        System.out.println("give me a"+s.charAt(c));
+                        System.out.println("give me a "+s.charAt(c));
                 c++;}
 
-                            
+                  System.out.println("whats that spell?");          
                 while (c>0) {
-                        System.out.println(s);
+                        System.out.println(s+"! ! !");
                         c--;
                         
                 }
