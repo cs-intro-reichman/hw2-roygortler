@@ -7,7 +7,7 @@ public class Collatz {
 		String s=args[1];
 		
 		if(s.equals("c"))
-		System.out.println("Every one of the first"+n+"hailstone sequences reached 1.");
+			System.out.println("Every one of the first"+n+"hailstone sequences reached 1.");
 		else
 			{while(c<n){int num=b;
 				if(b==1){

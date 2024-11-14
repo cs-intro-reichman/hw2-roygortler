@@ -28,9 +28,9 @@ public class Cheers {
                 c++;}
 
                   System.out.println("What does that spell?");          
-                while (c>0) {
+                while (number>0) {
                         System.out.println(s+"!!!");
-                        c--;
+                        number--;
                         
                 }
                         }

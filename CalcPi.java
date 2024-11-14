@@ -1,19 +1,16 @@
 // Computes an approximation of PI.
 public class CalcPi {
 	public static void main(String [] args) { 
-	    int c=0,b=1;
-		double i=1.0;
-		double d=1.0;
-		int number=Integer.parseInt(args[0]);
-		while(c<=number){
-			if(c%2==0){
-				i=i-(d/(b+2));
-				
-			}else
-				{i+=d/(b+2);
-				
-				}c++;
-			b+=2;
-		}System.out.println(i*4);
+	    int denom=1;
+		double sum = 0.0;
+		int number= Integer.parseInt(args[0]);
+		for (int j = 0; j < number; j++){
+			if (j % 2 ==0)
+				sum += (double) 1 / denom;
+			else
+				sum = sum - ((double) 1 / denom);
+			denom += 2;
+		}
+		System.out.println(sum*4);
 	}
 }
