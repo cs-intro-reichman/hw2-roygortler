@@ -24,7 +24,7 @@ public class Collatz {
 					{num=num*3+1;
 					}
 
-					}System.err.println(1);
+					}System.out.println(1);
 				}
 					
 				while(num!=1)
