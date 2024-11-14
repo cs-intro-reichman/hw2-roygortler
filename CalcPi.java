@@ -5,8 +5,8 @@ public class CalcPi {
 		double i=1.0;
 		double d=1.0;
 		int number=Integer.parseInt(args[0]);
-		while(c<number){
-			if(c%2==1){
+		while(c<=number){
+			if(c%2==0){
 				i=i-(d/(b+2));
 				
 			}else

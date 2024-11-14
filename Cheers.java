@@ -16,7 +16,7 @@ public class Cheers {
                 boolean r=true;
                 while(n<t.length()){
                         if(a==t.charAt(n))
-                                {System.out.println("give me an "+s.charAt(c)+" :"+s.charAt(c)+"!");
+                                {System.out.println("give me an "+s.charAt(c)+": "+s.charAt(c)+"!");
                                 r=false;
                                 break;}
                         
@@ -24,12 +24,12 @@ public class Cheers {
                 }
                 
                 if(r==true)
-                        System.out.println("give me a "+s.charAt(c)+" :"+s.charAt(c)+"!");
+                        System.out.println("give me a "+s.charAt(c)+": "+s.charAt(c)+"!");
                 c++;}
 
                   System.out.println("whats that spell?");          
                 while (c>0) {
-                        System.out.println(s+"! ! !");
+                        System.out.println(s+"!!!");
                         c--;
                         
                 }

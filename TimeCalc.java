@@ -22,8 +22,18 @@ public class TimeCalc {
         if(hours>=24)
             hours=hours%24;
         if(number%60<10)
-            System.out.println(hours+":0"+number%60);
+          {  if (hours<10) {
+            System.out.println(0+""+hours+":0"+number%60);
+                
+            }else
+
+             System.out.println(hours+":0"+number%60);}
         else
-            System.out.println(hours+":"+number%60);
+        {if (hours<10) {
+            System.out.println(0+""+hours+":"+number%60);
+                
+            }else
+                System.out.println(hours+":"+number%60);}
+            
     
 }}
