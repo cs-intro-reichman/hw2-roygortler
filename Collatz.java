@@ -24,7 +24,7 @@ public class Collatz {
 					{num=num*3+1;
 					}
 
-					}System.out.println(1);
+					}System.out.println(1+"(1)");
 				}
 					
 				while(num!=1)
@@ -39,7 +39,7 @@ public class Collatz {
 					}}
 				b++;
 				if(b!=2)
-					System.out.println("1");
+					System.out.println("1"+"("+(c+1)+")");
 				c++;
 				
 		}System.out.println("Every one of the first "+n+" hailstone sequences reached 1.");}
