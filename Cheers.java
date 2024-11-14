@@ -24,7 +24,7 @@ public class Cheers {
                 }
                 
                 if(r==true)
-                        System.out.println("Give me a "+s.charAt(c)+": "+s.charAt(c)+"!");
+                        System.out.println("Give me a  "+s.charAt(c)+": "+s.charAt(c)+"!");
                 c++;}
 
                   System.out.println("What does that spell?");          
