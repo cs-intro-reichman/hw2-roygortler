@@ -27,7 +27,7 @@ public class Cheers {
                         System.out.println("give me a "+s.charAt(c)+": "+s.charAt(c)+"!");
                 c++;}
 
-                  System.out.println("whats that spell?");          
+                  System.out.println("what does that spell?");          
                 while (c>0) {
                         System.out.println(s+"!!!");
                         c--;
