@@ -11,7 +11,7 @@ public class CalcPi {
 				sum = sum - ((double) 1 / denom);
 			denom += 2;
 		}
-		System.out.println("pi according to Java: "+Math.PI);
-		System.out.println("pi, approximated: "+sum*4);
+		System.out.println("pi according to Java:	 "+Math.PI);
+		System.out.println("pi, approximated:	 "+sum*4);
 	}
 }
