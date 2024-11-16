@@ -9,11 +9,12 @@ public class Collatz {
 		if(s.equals("c"))
 			System.out.println("Every one of the first "+n+" hailstone sequences reached 1.");
 		else
-			{while(c<n){int num=b;
+			{while(c<n){int num=b;int f=1;
 				if(b==1){
 					System.out.print(b+" ");
 					num=4;
 					while(num!=1){
+						
 						System.out.print(num+" ");	
 						if(num%2==0)
 						{
@@ -24,7 +25,7 @@ public class Collatz {
 					{num=num*3+1;
 					}
 
-					}System.out.println(1+"(1)");
+					}System.out.println(1+" (4)");
 				}
 					
 				while(num!=1)
@@ -36,10 +37,10 @@ public class Collatz {
 
 					else
 					{num=num*3+1;
-					}}
+					}f++;}
 				b++;
 				if(b!=2)
-					System.out.println("1"+"("+(c+1)+")");
+					System.out.println("1"+" ("+f+")");
 				c++;
 				
 		}System.out.println("Every one of the first "+n+" hailstone sequences reached 1.");}
