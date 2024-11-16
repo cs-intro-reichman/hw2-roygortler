@@ -9,7 +9,7 @@ public class TimeCalc {
         int newhours=time/60;
         int newminutes=time%60;
         if(newhours>24)
-           { newhours/=24;
+           { newhours=newhours%24;
             hours+=newhours;
         }else
             hours+=newhours;
